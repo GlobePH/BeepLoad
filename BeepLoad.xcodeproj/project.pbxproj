@@ -7,21 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EE157ED51D43614E00C2B57F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE157ED41D43614E00C2B57F /* AppDelegate.swift */; };
-		EE157ED71D43614E00C2B57F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE157ED61D43614E00C2B57F /* ViewController.swift */; };
 		EE157EDA1D43614E00C2B57F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE157ED81D43614E00C2B57F /* Main.storyboard */; };
 		EE157EDC1D43614E00C2B57F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE157EDB1D43614E00C2B57F /* Assets.xcassets */; };
 		EE157EDF1D43614E00C2B57F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE157EDD1D43614E00C2B57F /* LaunchScreen.storyboard */; };
+		EE609E9D1D43EFA4004D5A15 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE609E9C1D43EFA4004D5A15 /* Extensions.swift */; };
+		EE609EAB1D43F03E004D5A15 /* EmptySegue.m in Sources */ = {isa = PBXBuildFile; fileRef = EE609EA41D43F03E004D5A15 /* EmptySegue.m */; };
+		EE609EAC1D43F03E004D5A15 /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE609EA51D43F03E004D5A15 /* LeftMenuViewController.swift */; };
+		EE609EAD1D43F03E004D5A15 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE609EA61D43F03E004D5A15 /* MenuTableViewCell.swift */; };
+		EE609EAE1D43F03E004D5A15 /* MSSlidingPanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE609EA81D43F03E004D5A15 /* MSSlidingPanelController.m */; };
+		EE609EAF1D43F03E004D5A15 /* MSViewControllerSlidingPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE609EAA1D43F03E004D5A15 /* MSViewControllerSlidingPanel.m */; };
+		EE609EB31D43F08E004D5A15 /* HRToast+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE609EB11D43F08E004D5A15 /* HRToast+UIView.swift */; };
+		EE609EB41D43F08E004D5A15 /* ToastFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE609EB21D43F08E004D5A15 /* ToastFunction.swift */; };
+		EE609EB91D43F13C004D5A15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE609EB61D43F13C004D5A15 /* AppDelegate.swift */; };
+		EE609EBA1D43F13C004D5A15 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE609EB71D43F13C004D5A15 /* BaseTableViewController.swift */; };
+		EE609EBB1D43F13C004D5A15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE609EB81D43F13C004D5A15 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EE157ED11D43614E00C2B57F /* BeepLoad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeepLoad.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE157ED41D43614E00C2B57F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EE157ED61D43614E00C2B57F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EE157ED91D43614E00C2B57F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE157EDB1D43614E00C2B57F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE157EDE1D43614E00C2B57F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE157EE01D43614E00C2B57F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE609E9B1D43EFA4004D5A15 /* CommonCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonCryptor.h; path = Extensions/CommonCryptor.h; sourceTree = "<group>"; };
+		EE609E9C1D43EFA4004D5A15 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Extensions/Extensions.swift; sourceTree = "<group>"; };
+		EE609E9F1D43EFCF004D5A15 /* BeepLoad-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeepLoad-Bridging-Header.h"; sourceTree = "<group>"; };
+		EE609EA31D43F03E004D5A15 /* EmptySegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmptySegue.h; path = SlideMenu/EmptySegue.h; sourceTree = "<group>"; };
+		EE609EA41D43F03E004D5A15 /* EmptySegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmptySegue.m; path = SlideMenu/EmptySegue.m; sourceTree = "<group>"; };
+		EE609EA51D43F03E004D5A15 /* LeftMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LeftMenuViewController.swift; path = SlideMenu/LeftMenuViewController.swift; sourceTree = "<group>"; };
+		EE609EA61D43F03E004D5A15 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuTableViewCell.swift; path = SlideMenu/MenuTableViewCell.swift; sourceTree = "<group>"; };
+		EE609EA71D43F03E004D5A15 /* MSSlidingPanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSSlidingPanelController.h; path = SlideMenu/MSSlidingPanelController.h; sourceTree = "<group>"; };
+		EE609EA81D43F03E004D5A15 /* MSSlidingPanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSSlidingPanelController.m; path = SlideMenu/MSSlidingPanelController.m; sourceTree = "<group>"; };
+		EE609EA91D43F03E004D5A15 /* MSViewControllerSlidingPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSViewControllerSlidingPanel.h; path = SlideMenu/MSViewControllerSlidingPanel.h; sourceTree = "<group>"; };
+		EE609EAA1D43F03E004D5A15 /* MSViewControllerSlidingPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSViewControllerSlidingPanel.m; path = SlideMenu/MSViewControllerSlidingPanel.m; sourceTree = "<group>"; };
+		EE609EB11D43F08E004D5A15 /* HRToast+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "HRToast+UIView.swift"; path = "Toast/HRToast+UIView.swift"; sourceTree = "<group>"; };
+		EE609EB21D43F08E004D5A15 /* ToastFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToastFunction.swift; path = Toast/ToastFunction.swift; sourceTree = "<group>"; };
+		EE609EB61D43F13C004D5A15 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Classes/AppDelegate.swift; sourceTree = "<group>"; };
+		EE609EB71D43F13C004D5A15 /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseTableViewController.swift; path = Classes/BaseTableViewController.swift; sourceTree = "<group>"; };
+		EE609EB81D43F13C004D5A15 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Classes/ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +77,52 @@
 		EE157ED31D43614E00C2B57F /* BeepLoad */ = {
 			isa = PBXGroup;
 			children = (
-				EE157ED41D43614E00C2B57F /* AppDelegate.swift */,
-				EE157ED61D43614E00C2B57F /* ViewController.swift */,
+				EE609EB61D43F13C004D5A15 /* AppDelegate.swift */,
+				EE609EB71D43F13C004D5A15 /* BaseTableViewController.swift */,
+				EE609EB81D43F13C004D5A15 /* ViewController.swift */,
 				EE157ED81D43614E00C2B57F /* Main.storyboard */,
 				EE157EDB1D43614E00C2B57F /* Assets.xcassets */,
 				EE157EDD1D43614E00C2B57F /* LaunchScreen.storyboard */,
+				EE609EB01D43F046004D5A15 /* SlideMenu */,
+				EE609EB51D43F096004D5A15 /* Toast */,
+				EE609E9E1D43EFAA004D5A15 /* Extensions */,
 				EE157EE01D43614E00C2B57F /* Info.plist */,
+				EE609E9F1D43EFCF004D5A15 /* BeepLoad-Bridging-Header.h */,
 			);
 			path = BeepLoad;
+			sourceTree = "<group>";
+		};
+		EE609E9E1D43EFAA004D5A15 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EE609E9B1D43EFA4004D5A15 /* CommonCryptor.h */,
+				EE609E9C1D43EFA4004D5A15 /* Extensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		EE609EB01D43F046004D5A15 /* SlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				EE609EA31D43F03E004D5A15 /* EmptySegue.h */,
+				EE609EA41D43F03E004D5A15 /* EmptySegue.m */,
+				EE609EA51D43F03E004D5A15 /* LeftMenuViewController.swift */,
+				EE609EA61D43F03E004D5A15 /* MenuTableViewCell.swift */,
+				EE609EA71D43F03E004D5A15 /* MSSlidingPanelController.h */,
+				EE609EA81D43F03E004D5A15 /* MSSlidingPanelController.m */,
+				EE609EA91D43F03E004D5A15 /* MSViewControllerSlidingPanel.h */,
+				EE609EAA1D43F03E004D5A15 /* MSViewControllerSlidingPanel.m */,
+			);
+			name = SlideMenu;
+			sourceTree = "<group>";
+		};
+		EE609EB51D43F096004D5A15 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				EE609EB11D43F08E004D5A15 /* HRToast+UIView.swift */,
+				EE609EB21D43F08E004D5A15 /* ToastFunction.swift */,
+			);
+			name = Toast;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +157,10 @@
 				TargetAttributes = {
 					EE157ED01D43614E00C2B57F = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = HURG2RTE5C;
+						DevelopmentTeamName = "Chris Castillo (Personal Team)";
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -135,8 +200,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE157ED71D43614E00C2B57F /* ViewController.swift in Sources */,
-				EE157ED51D43614E00C2B57F /* AppDelegate.swift in Sources */,
+				EE609EB91D43F13C004D5A15 /* AppDelegate.swift in Sources */,
+				EE609EB41D43F08E004D5A15 /* ToastFunction.swift in Sources */,
+				EE609E9D1D43EFA4004D5A15 /* Extensions.swift in Sources */,
+				EE609EAF1D43F03E004D5A15 /* MSViewControllerSlidingPanel.m in Sources */,
+				EE609EAD1D43F03E004D5A15 /* MenuTableViewCell.swift in Sources */,
+				EE609EBA1D43F13C004D5A15 /* BaseTableViewController.swift in Sources */,
+				EE609EBB1D43F13C004D5A15 /* ViewController.swift in Sources */,
+				EE609EB31D43F08E004D5A15 /* HRToast+UIView.swift in Sources */,
+				EE609EAB1D43F03E004D5A15 /* EmptySegue.m in Sources */,
+				EE609EAC1D43F03E004D5A15 /* LeftMenuViewController.swift in Sources */,
+				EE609EAE1D43F03E004D5A15 /* MSSlidingPanelController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,10 +325,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BeepLoad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.t0tep.app.BeepLoad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BeepLoad/BeepLoad-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -262,10 +342,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BeepLoad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.t0tep.app.BeepLoad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BeepLoad/BeepLoad-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -288,6 +373,7 @@
 				EE157EE51D43614E00C2B57F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "scale" : "1x"
+      "scale" : "1x",
+      "filename" : "help1.png"
     },
     {
       "idiom" : "universal",
-      "filename" : "train.png",
       "scale" : "2x"
     },
     {
